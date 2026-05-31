@@ -1,3 +1,28 @@
+export PULSE_SERVER=tcp:$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 使用说明 — 启动后怎么控制机器人
 
 ## 你 Launch 之后发生了什么
